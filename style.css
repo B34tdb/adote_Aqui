@@ -1,0 +1,89 @@
+body{
+  background-color: salmon;
+}
+
+header{
+  background-color: gray;
+  color: yellow;
+  padding: 20px;
+}
+
+.caixa{
+  position:relative;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 5px;
+  right: 0;
+}
+
+nav li{
+  display:inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase ;
+color:white;
+font-weight: bold;
+font-size: 20px;
+text-decoration: none;
+}
+
+nav a:hover{
+ color: rgb(104, 8, 133);
+ text-decoration: underline;
+}
+
+h2{
+  font-weight: bold;
+  text-align: center;
+  padding:30px;
+}
+
+.animals{
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+}
+.animals li img{
+  width: 300px;
+  height: 300px;
+  vertical-align: middle;
+}
+
+.animals li{
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+  box-sizing:border-box;
+  border-radius:20px;
+  border-color: #000000;
+  border-width: 2px ;
+  border-style: solid;
+  margin-bottom: 10px;
+}
+
+.animals li:hover{
+  border-color:#fbff00;
+}
+
+.animals li:active{
+  border-color: purple;
+}
+
+footer{
+  text-align: center;
+  background-color:gray;
+  padding: 1%;
+}
+
+.final{
+  color: white;
+  font-size: 13px;
+  margin: 20px;
+}
